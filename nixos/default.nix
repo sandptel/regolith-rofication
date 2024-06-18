@@ -4,7 +4,7 @@ pkgs.python311.pkgs.buildPythonApplication {
   pname = "rofication";
   version = "main";
   
-  src = ./.;
+  src = ../.;
   
  propagatedBuildInputs = with pkgs.python311.pkgs; [dbus-python pygobject3];
   installPhase= ''
